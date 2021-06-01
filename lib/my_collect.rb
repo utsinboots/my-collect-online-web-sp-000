@@ -8,7 +8,7 @@ def my_collect(array)
     #end
     yield(array)
   end
-  #collection
+ my_collect
 end
 
 my_collect(array) {|lang| lang.upcase}
