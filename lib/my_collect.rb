@@ -8,10 +8,10 @@ def my_collect(array)
     end
   end
   collection
-  #yield(array)
+  yield(array)
 end
 
-#my_collect(array) {|name| name.split(" ").first}
+array.collect {|name| name.split(" ").first}
 
 
 
