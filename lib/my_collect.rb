@@ -1,12 +1,11 @@
 def my_collect(array)
   i = 0
-  #collection = []
+  collection = []
   while i < array.size
     array.collect do |lang|
-      lang.upcase!
+      collection << lang.upcase
       i += 1
     end
+  collection
   end
-  array
 end
-#my_collect
