@@ -6,12 +6,12 @@ def my_collect(array)
       collection << lang.upcase
       i += 1
     end
-    
   end
-  collectionyield(array)
+  collection
+  #yield(array)
 end
 
-my_collect(array) {|name| name.split(" ").first}
+#my_collect(array) {|name| name.split(" ").first}
 
 
 
