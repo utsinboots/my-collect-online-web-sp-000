@@ -12,7 +12,7 @@ def my_collect(array)
   collection
 end
 
-
+my_collect(array) 
 
 
 
