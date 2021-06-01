@@ -6,9 +6,9 @@ def my_collect(array)
       collection << lang.upcase
       i += 1
     end
-    yield(array)
+    
   end
-  collection
+  collectionyield(array)
 end
 
 my_collect(array) {|name| name.split(" ").first}
