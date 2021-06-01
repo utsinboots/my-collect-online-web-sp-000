@@ -6,4 +6,4 @@ def my_collect(array)
     lang.upcase
   end
 end
-my_collect
+#my_collect
