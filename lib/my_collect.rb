@@ -6,6 +6,6 @@ def my_collect(array)
       collection << lang.upcase
       i += 1
     end
-  collection
-  end
+  
+  endcollection
 end
